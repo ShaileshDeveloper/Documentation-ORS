@@ -1,0 +1,185 @@
+.parent-container {
+    background: #f7f8fb;
+    padding: 5px 20px;
+}
+	.section {
+		padding-bottom:6px;
+}
+	.ors-form-control {
+    display: inline-block;
+    padding: 6px 3px;
+}
+	.ors-form-label {
+		font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #09135a;
+    margin-bottom: 1px;
+    display: block;
+}
+	.ors-form-input {
+    background-color: #fff;
+    border: 0.5px solid #dee2ed;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 6px;
+    width: 100%;
+    font-family: "Inter-medium";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1f2d8f;
+    margin-top: 2px;
+}
+.w-sm{
+    width: 100% ;
+    max-width: 110px;
+}
+.w-md{
+    width: 100px;
+    max-width: 220px;
+}
+.w-lg{
+    width: 100%;
+    max-width: 330px;
+}
+.w-xl{
+    width: 100%;
+    max-width: 440px;
+}
+.w-full{
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Using rows */
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 6px;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.ors-form-control {
+    display: inline-block; 
+    padding: 6px 3px;
+}
+	
+.ors-form-control.align-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.ors-form-label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #09135a;
+    margin-bottom: 1px;
+    display: block;
+}
+ .main-radio {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+ }
+.radio-common {
+    width: 200px;
+    max-width: 200px;
+    background: #fff;
+    border: 0.5px solid #09135a;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 17px;
+    position: relative;
+	height: 29px;
+}
+.ors-form-control input {
+    height: 29px !important;
+}
+.ors-forms-and-checklists .selected input[type="radio"]:checked::before {
+    position: absolute;
+    content: "";
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAMAAACq939wAAAAe1BMVEUAAAAk220g34At0n0s03ou1Xgt1Xot1nkv03ov03su1Hou03su03ot1Hov1Xsu1Hsu1Hou1Xsu1Hou1Hou1Xou1Hot1Hou1Hou1Hou1Xou1Hou1Ho11n8914NV3JNb3Zdc3Zdi35tx4qV65Kuf68LW9+Xu+/T2/fn///8Ihj4AAAAAG3RSTlMABwgtLkhJSlZXWG5vcXKgoaLi4+Tl5vj5/P5Qz6yoAAAAAWJLR0QovbC1sgAAAGVJREFUCB0FwYkiAgEAQMG3KmRVjhZrcqwj//+HZqourvb7y6Gqbp5g2lbdAoy1ngHmVffAxzuHjpxOlvMnj73w/ft1XvDcET9/Czx0B2/g0HoGmFc1Al7Hqu0E03VVDZvdbjNU//1CDAlVsk2qAAAAAElFTkSuQmCC) no-repeat;
+    width: 13px;
+    height: 13px;
+    left: 5px;
+    top: 7px;
+}
+
+.ors-forms-and-checklists .selected input[type="radio"] {
+    display: block !important;
+    padding-left: 10px;
+}
+
+.ors-form-control .radio-common input {
+    height: auto !important;
+}
+
+.ors-forms-and-checklists input[type="radio"] {
+    display: none;
+    appearance: none;
+    transition: all 0.3s ease-in-out;
+}
+
+hr {
+    border-color: #ccc;
+    border-top-width: 1px;
+    color: inherit;
+    height: 0;
+    box-sizing: content-box;
+    overflow: visible;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.parent-container {
+    background: #f7f8fb;
+    padding: 5px 20px;
+}
+	.section {
+		padding-bottom:6px needs to be added in global css
+}
+	.ors-form-control {
+    display: inline-block;
+    padding: 6px 3px;
+}
+	.ors-form-label {
+		font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #09135a;
+    margin-bottom: 1px;
+    display: block;
+}
+
+	.flatpickr-input {
+    display: block;
+    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABmJLR0QA/wD/AP+gvaeTAAABaklEQVQ4jbWSsUoDQRRFz9uIcSMxFhZWEbEyXf7BJgiKjZ2CGLKNliZroymTVmx2iV9gJWgnFlpa2EtsgoWIRkGIRkieRaLuupsEBS8MM8zcOXPf8ODfVHCS5A/ivr38QZyCkwyzG6EQkQukteN3tncROQ+1f60296KMmvug8yiTiL6DNDzeGDAM3KEcY45vUFx+9yeJmVnQdeAUoQlSBT30jBvgrXue5e05+3l1yBN3FpVHSrlVbDcBckIp53r+yULIdM8ziKaCkI4UgFJuMVB42XIAx+cLQiSFMoHt1kP+7qcSICFJVB8QaXbqH6gVlIcgRLhHeaFkWWw5M0RkGtVrylYtgLDdJUTvQ8rxKCJnQBKRGjA1KFZ4s8HIj7mvwpPALmgauPwlRJ6AMbbdBZRqp9kA253z3RBiKGOoUQ9CDKNCq72GctT32U6H3KLtyjfXq6IToxlJo22zJ0SMV6KtK4pWo6fnL/oAtNtwgGHOXVsAAAAASUVORK5CYII=) no-repeat 97% center;
+    border: 1px solid #dee2ed;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 6px;
+    text-transform: uppercase;
+    font-family: "Inter-medium";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(9, 19, 90, 1);
+    background-position: right 20px bottom 50%;
+    width: 140px;
+    margin-top: 2px;
+}
+	.flatpickr-input[readonly] {
+    cursor: pointer;
+}
+
+	.ors-form-control input {
+    height: 29px !important;
+}
+
